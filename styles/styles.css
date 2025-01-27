@@ -1,8 +1,8 @@
 /*
  * Copyright 2020 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * You may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software distributed under
  * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
- :root {
+:root {
   /* colors */
   --color-yellow: #00FF00;
   --link-color: black;
@@ -46,7 +46,7 @@
   --nav-height: 115px;
 
   /* buttons */
-  --button-background-color: green ;
+  --button-background-color: green;
   --button-border-radius: 0;
   --button-text-color: var(--text-color);
   --button-padding: 1em 2.5em;
@@ -157,7 +157,7 @@ pre {
 /* buttons */
 
 a.button:any-link, button {
-  color: green
+  color: green;
   background-color: var(--button-background-color);
   text-transform: uppercase;
   font-size: 14px;
@@ -179,17 +179,7 @@ a.button:any-link, button {
   line-height: 1.5;
 }
 
-
-
-
-
-
-
-
-
-
-a.button:hover, a.button:focus, button:hover, button:focus  {
-  /* background-color: var(--link-hover-color); */
+a.button:hover, a.button:focus, button:hover, button:focus {
   cursor: pointer;
 }
 
@@ -201,9 +191,9 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: green;
+  background-color: limegreen; /* Updated to lime green */
   border: 2px solid #00539b;
-  color: green ;
+  color: green;
 }
 
 body.activity main {
@@ -323,14 +313,14 @@ main .section.full-bleed > div {
 
 .icon-wknd-logo-dk {
   display: inline-block;
-  width:128px;
+  width: 128px;
   margin-top: 14px;
   margin-bottom: 7px;
 }
 
 .icon-wknd-logo-light {
   display: inline-block;
-  width:128px;
+  width: 128px;
   margin-top: 14px;
   margin-bottom: 7px;
 }
