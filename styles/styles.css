@@ -157,7 +157,7 @@ pre {
 /* buttons */
 
 a.button:any-link, button {
-  color: var(--button-text-color);
+  color: #00FF00; /* Lime color for the button text */
   background-color: var(--button-background-color);
   text-transform: uppercase;
   font-size: 14px;
@@ -167,7 +167,7 @@ a.button:any-link, button {
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid transparent;
+  border: 2px dotted var(--button-border-color); /* Dotted border */
   text-align: center;
   font-style: normal;
   cursor: pointer;
@@ -178,6 +178,7 @@ a.button:any-link, button {
   border-radius: var(--button-border-radius);
   line-height: 1.5;
 }
+
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
   /* background-color: var(--link-hover-color); */
